@@ -3,6 +3,20 @@
     url('./mirtha-display-bold-webfont.woff2') format('woff2'), 
     url('./mirtha-display-bold-webfont.woff') format('woff'); 
 }
+
+body{
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+a{
+    color: #C38D00;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.4;
+}
+
 .container{
     margin: 168px;
     display: flex;
@@ -78,7 +92,7 @@ h3{
     grid-column-start: 4;
     font-family: 'Montserrat';
     font-size: 16px;
-    margin-top:50px;
+    margin-top:35px;
     margin-bottom: 70px;
 }
 
@@ -86,7 +100,7 @@ h3{
     grid-column-start: 5;
     font-family: 'Montserrat';
     font-size: 16px;
-    margin-top:50px;
+    margin-top:35px;
     margin-bottom: 58px;
 }
 
@@ -98,3 +112,4 @@ h3{
 .social img:hover{
     opacity: 0.4;
 }
+
