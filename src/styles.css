@@ -1,9 +1,8 @@
-main{
-    margin: 168px;
-    background-color: FDFAFA;
-    font-family: 'Montserrat';
+@font-face { font-family: 'Mirtha'; 
+    src: url('./Mirtha-Display-Bold.otf') format('otf'), 
+    url('./mirtha-display-bold-webfont.woff2') format('woff2'), 
+    url('./mirtha-display-bold-webfont.woff') format('woff'); 
 }
-
 .container{
     margin: 168px;
     display: flex;
@@ -58,3 +57,44 @@ main{
 
 }
 
+.separador{
+    width: 90%;
+    margin-bottom: 168px;
+}
+
+footer{
+    background-image: url(./img/Footer-Grad.png);
+    display:grid;
+    grid-template-columns: 6;
+    grid-column-gap: 45px;
+    color:#C38D00;
+}
+h3{
+    font-family: 'Mirtha';
+    font-size: 30px;
+}
+
+.menu{
+    grid-column-start: 4;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-top:50px;
+    margin-bottom: 70px;
+}
+
+.contact{
+    grid-column-start: 5;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-top:50px;
+    margin-bottom: 58px;
+}
+
+.social img{
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.social img:hover{
+    opacity: 0.4;
+}
